@@ -1,0 +1,23 @@
+//Chapter 3
+//Assignment 1
+
+//square root and cube root of a number
+import java.util.Scanner;
+public class root {
+	  public static void main(String[] args) {
+	  Scanner scanner = new Scanner(System.in);
+	  System.out.println("Enter value of number for which you want Square root ");
+	  double number = scanner.nextDouble();
+	  System.out.println();
+	  System.out.println("Calculating Square root of a number ... ");
+	  double result = Math.sqrt(number);
+	  System.out.println("Square root of " + number + " is : " + result);
+	  System.out.println();
+	  System.out.println("Enter value of number for which you want Cube root ");
+	  number = scanner.nextDouble();
+	  System.out.println();
+	  System.out.println("Calculating Cube root of a number ... ");
+	  result = Math.cbrt(number);	  
+	  System.out.println("Cube root of " + number + " is : " + result);	 
+	 }
+	}
